@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing skills, projects, and achievements.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your introduction to my skills and projects.</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <img src="your-photo.jpg" alt="Professional photo of me">
+        <p>Hi! I'm [Your Name], a [Your Role] passionate about [Your Passion/Area of Interest]. Welcome to my portfolio!</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills & Expertise</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>[Other Relevant Skills]</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <img src="project1-image.jpg" alt="Screenshot of Project 1">
+            <p>Description of your project, its purpose, and the technologies used.</p>
+            <a href="https://github.com/yourprofile/project1">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <img src="project2-image.jpg" alt="Screenshot of Project 2">
+            <p>Description of your project, its purpose, and the technologies used.</p>
+            <a href="https://github.com/yourprofile/project2">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourprofile">github.com/yourprofile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; [Year] [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
